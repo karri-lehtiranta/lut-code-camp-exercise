@@ -1,13 +1,19 @@
-import logo from './logo.svg'
+import React from 'react'
+
+import PostList from './components/PostList'
+import SinglePost from './components/SinglePost'
+
 import './App.css'
 
-import SampleAPI from 'react-traning-sample-api'
-import PostList from './components/PostList'
-
 function App() {
+  const [selectedPost, setSelectedPost] = React.useState(null)
   return (
     <div className="App">
-      <PostList />
+      <PostList selectedPost={selectedPost} setSelectedPost={setSelectedPost} />
+      <SinglePost
+        selectedPost={selectedPost}
+        setSelectedPost={setSelectedPost}
+      />
     </div>
   )
 }

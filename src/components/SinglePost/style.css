@@ -1,0 +1,17 @@
+.single-post {
+  width: 600px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.single-post-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.comment-container {
+  height: 400px;
+  overflow-y: auto;
+  padding: 20px;
+  border: 1px solid grey;
+}
