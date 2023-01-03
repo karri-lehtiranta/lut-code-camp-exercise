@@ -1,3 +1,11 @@
+# Example exercise coded during LUT React code camp first lecture
+
+Install dependencies using `npm install` and run the code using `npm start`.
+The code is not perfect and especially the styling could be improved a lot but can be used as a reference for learning React basics.
+
+The router-example folder contains code written during the router part of the lecture. The running instructions are the same. The example follows the recommended way to use BrowserRouter in React Router versions < 6.4. On newer versions,
+the example code works but the recommended way is detailed in https://reactrouter.com/en/6.6.1/start/tutorial
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
